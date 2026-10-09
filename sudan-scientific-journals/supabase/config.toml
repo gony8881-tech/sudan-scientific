@@ -1,0 +1,4 @@
+# Supabase local development config placeholder.
+# Populate this once `supabase init` is run against the real project,
+# or replace with the project's linked config.
+project_id = "sudan-scientific-journals"

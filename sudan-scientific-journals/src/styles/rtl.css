@@ -1,0 +1,19 @@
+/*
+ * Direction-aware helpers.
+ * The project is RTL-first (Arabic default) but must fully support LTR (English).
+ * We rely on the `dir` attribute set on <html> by the i18n layer (see src/i18n/index.ts)
+ * and use logical CSS properties everywhere instead of hard-coded left/right.
+ */
+
+[dir='ltr'] .flip-x {
+  transform: scaleX(-1);
+}
+
+/* Utility for icons that should visually flip between RTL/LTR (e.g. arrows) */
+[dir='rtl'] .icon-directional {
+  transform: scaleX(-1);
+}
+
+[dir='ltr'] .icon-directional {
+  transform: none;
+}

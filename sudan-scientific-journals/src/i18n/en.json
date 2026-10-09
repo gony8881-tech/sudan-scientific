@@ -1,0 +1,51 @@
+{
+  "app": {
+    "name": "Sudan Scientific Journals"
+  },
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "admin": "Admin"
+  },
+  "home": {
+    "title": "Sudan Scientific Journals Directory",
+    "subtitle": "Find scientific journals by country, university, and specialization",
+    "stats": {
+      "countries": "Countries",
+      "universities": "Universities",
+      "journals": "Journals"
+    },
+    "latestJournals": "Latest Journals",
+    "featuredUniversities": "Featured Universities"
+  },
+  "search": {
+    "placeholder": "Search for a journal, university, or country...",
+    "advanced": "Advanced Search",
+    "country": "Country",
+    "university": "University",
+    "journal": "Journal Name",
+    "specialization": "Specialization",
+    "issn": "ISSN",
+    "noResults": "No journals matched your search criteria."
+  },
+  "journal": {
+    "visitWebsite": "Visit Journal Website",
+    "submitPaper": "Submission Link",
+    "publisher": "Publisher",
+    "frequency": "Publication Frequency",
+    "language": "Language"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong, please try again.",
+    "empty": "No data to display.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm"
+  }
+}
